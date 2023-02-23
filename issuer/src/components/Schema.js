@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
 import axios from 'axios';
 
-const agentUrl = "http://18.181.87.113:8003";
+const agentUrl = process.env.REACT_APP_ISSUER_URL;
 
 
 const getAx =() =>{
       const instance = axios.create({
-      baseURL: "http://18.181.87.113:8003",
+      baseURL: process.env.REACT_APP_ISSUER_URL,
       // timeout: 1000,
       headers: {'Content-type': 'application/json'}
       });
