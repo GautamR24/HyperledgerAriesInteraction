@@ -11,6 +11,7 @@ import Definition from './components/Definition';
 import CreateInvitation from './components/CreateInvitation';
 import ReceiveInvitation from './components/ReceiveInvitation';
 import IssueCredential from './components/IssueCredential';
+import Connection from './components/Connection'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/definition" element={<Definition/>}/>
             <Route exact path="/createInvitation" element={<CreateInvitation/>}/>
             <Route exact path="/receiveInvitation" element={<ReceiveInvitation/>}/>
+            <Route exact path="/connections" element={<Connection/>}/>
             <Route exact path="/issueCredential" element={<IssueCredential/>}/>
         </Routes>
       </Router>

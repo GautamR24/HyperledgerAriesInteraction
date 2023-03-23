@@ -25,6 +25,9 @@ export default function Navbar() {
                 <Link className="nav-link" to="/receiveInvitation">Receive invitation</Link>
                 </li>
                 <li className="nav-item">
+                <Link className="nav-link" to="/connections">Connections</Link>
+                </li>
+                <li className="nav-item">
                 <Link className="nav-link" to="/issueCredential">Issue credential</Link>
                 </li>
                 {/* <li className="nav-item dropdown">
